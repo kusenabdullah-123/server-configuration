@@ -154,3 +154,10 @@ restart server
 sudo systemctl reboot
 ```
 
+koneksi ke server dengan parameter serverAliveInterval
+```
+ssh -o ServerAliveInterval=30 user@example.com
+```
+
+
+
